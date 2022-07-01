@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - GameOver
+  - Enemies
   layers:
   - Default
   - TransparentFX
@@ -13,13 +15,13 @@ TagManager:
   - UI
   - Ground
   - Climbing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Bouncing
+  - Enemies
+  - Hazards
+  - Bullets
+  - Interactables
   - 
   - 
   - 
@@ -52,6 +54,15 @@ TagManager:
     locked: 0
   - name: Climbing
     uniqueID: 4127614721
+    locked: 0
+  - name: Hazards
+    uniqueID: 1839219459
+    locked: 0
+  - name: Interactables
+    uniqueID: 3641214909
+    locked: 0
+  - name: Enemies
+    uniqueID: 1912839171
     locked: 0
   - name: Player
     uniqueID: 893893911
