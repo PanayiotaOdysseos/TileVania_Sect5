@@ -150,6 +150,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("Dying");
             myRigidbody.velocity = deathKick;
             canvas.GetComponent<Canvas>().enabled = true;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 
